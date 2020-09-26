@@ -6,6 +6,7 @@ body {
     background-color: steelblue;
     margin:0;
     padding:0;
+
 }
  .login{
     background-color: white;
@@ -49,6 +50,7 @@ body {
     margin-top: 10px;
 
 }
+
 #otsing{
     width:30%;
     height: 30px;
@@ -117,3 +119,70 @@ a {
     background-color: white;
     margin-left: 25%;
 }
+
+.box1 {
+    background-color: white;
+    padding: 0px;
+    margin-top: 3%;
+    margin-left: 27%;
+    width: 45%;
+    height: 41%;
+    box-shadow: 0px 0px 5px 5px #aaaaaa;
+
+
+}
+.box2{
+    background-color: white;
+    padding: 0px;
+    margin-top: 2%;
+    margin-left: 27%;
+    width: 45%;
+    height: 15%;
+    box-shadow: 0px 0px 5px 5px #aaaaaa;
+
+}
+
+.box3 {
+    background-color: white;
+    padding: 0px;
+    margin-top: 2%;
+    margin-left: 27%;
+    width: 45%;
+    height: 35%;
+    box-shadow: 0px 0px 5px 5px #aaaaaa;
+}
+
+.content img{
+    display: flex ;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: auto;
+    width: 5%;
+    object-fit: cover;
+}
+
+.sibling img + p{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #aaaaaa;
+    font-size: 12px;
+
+}
+#pic2{
+
+    margin: 0;
+    width: 100%;
+}
+
+.content ~ p{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    color: red;
+}
+
+
+
+
+
