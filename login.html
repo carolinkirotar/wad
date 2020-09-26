@@ -7,19 +7,23 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
+    <main class="login">
         <section class="text">
-            <img src="https://www.onlygfx.com/wp-content/uploads/2020/07/blank-post-it-note-1.png" alt="picture">
+            <img src="https://www.onlygfx.com/wp-content/uploads/2020/07/blank-post-it-note-1.png" alt="picture" id="esimene">
             <h1> Welcome to postIt! </h1>
             <p><a href=" "> Create an Account </a></p>
             <h2> Or </h2>
             <h1> Please Log In </h1>
             <form action="index.html">
-                <input placeholder="Email" type="email" id="email">
+                <label>
+                    <input placeholder="Email" type="email" class="credentials">
+                </label>
                 <br>
-                <input placeholder="Password" type="password" id="password">
+                <label>
+                    <input placeholder="Password" type="password" class="credentials">
+                </label>
                 <br>
-                <input type="submit" value="Log in">
+                <input type="submit" value="Log in" class="credentials">
             </form>
             <p><a href=" " id="forgot_password"> Forgot password? </a></p>
         </section>

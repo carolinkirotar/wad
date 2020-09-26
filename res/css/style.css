@@ -4,10 +4,10 @@
 
 body {
     background-color: steelblue;
-    display: flex;
+    margin:0;
+    padding:0;
 }
-
-main {
+ .login{
     background-color: white;
     position: fixed;
     display: flex;
@@ -18,19 +18,60 @@ main {
     width: 400px;
     transform: translate(-50%, -50%);
 }
+.header{
+    width: 100%;
+    display:inline-block;
+    background-color: white;
 
+}
 .text {
     text-align: center;
     padding: 30px;
     margin-top: 25px;
 }
 
-img {
+#esimene {
     position: absolute;
     height: 70px;
     margin-left: -190px;
     margin-top: -40px;
     overflow: visible;
+}
+#teine{
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#kolmas{
+    height: 40px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+#otsing{
+    width:30%;
+    height: 30px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 1%;
+}
+
+#nupp{
+    width:5%;
+    height: 36px;
+    position: absolute;
+    margin: auto;
+    left: 28%;
+    right: 0;
+    top: 1%;
+    background-color: steelblue;
+    color: white;
+}
+#nupp:hover{
+    color: red;
 }
 
 h1 {
@@ -41,13 +82,13 @@ h2 {
     font-size: 19px;
 }
 
-input {
+.credentials {
     margin: 5px;
     padding: 10px;
     width: 85%;
 }
 
-input[type=submit] {
+.credentials[type=submit] {
     background-color: darkblue;
     color: white;
     text-align: center;
@@ -59,11 +100,20 @@ input[type=submit] {
     width: 40%;
 }
 
-input[type=submit]:hover {
+.credentials[type=submit]:hover {
     background-color: lightblue;
 }
 
 a {
     color: deepskyblue;
     background-color: transparent;
+}
+
+.content{
+    position: fixed;
+    height: 100%;
+    width: 50%;
+
+    background-color: white;
+    margin-left: 25%;
 }
