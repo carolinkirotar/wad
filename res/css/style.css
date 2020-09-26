@@ -6,6 +6,7 @@ body {
     background-color: steelblue;
     margin:0;
     padding:0;
+    overflow: auto;
 
 }
  .login{
@@ -112,6 +113,7 @@ a {
 }
 
 .content{
+
     position: fixed;
     height: 100%;
     width: 50%;
@@ -122,67 +124,94 @@ a {
 
 .box1 {
     background-color: white;
-    padding: 0px;
-    margin-top: 3%;
+    padding: 0;
+    margin-top: 2%;
     margin-left: 27%;
     width: 45%;
-    height: 41%;
-    box-shadow: 0px 0px 5px 5px #aaaaaa;
+    height: 40%;
+    box-shadow: 0 0 5px 5px #aaaaaa;
 
 
 }
 .box2{
     background-color: white;
-    padding: 0px;
+    padding: 0;
     margin-top: 2%;
     margin-left: 27%;
     width: 45%;
-    height: 15%;
-    box-shadow: 0px 0px 5px 5px #aaaaaa;
+    height: 11%;
+    box-shadow: 0 0 5px 5px #aaaaaa;
 
 }
 
 .box3 {
     background-color: white;
-    padding: 0px;
+    padding: 0;
     margin-top: 2%;
     margin-left: 27%;
     width: 45%;
-    height: 35%;
-    box-shadow: 0px 0px 5px 5px #aaaaaa;
+    height: 34%;
+    box-shadow: 0 0 5px 5px #aaaaaa;
 }
 
-.content img{
+.sibling img{
     display: flex ;
     float: left;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin-left: 2%;
+    margin-top: 2%;
     margin-right: auto;
     width: 5%;
-    object-fit: cover;
 }
 
-.sibling img + p{
-    float: right;
-    margin-top: 10px;
-    margin-right: 10px;
-    color: #aaaaaa;
-    font-size: 12px;
+.sibling img + h3{
+    float: left;
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 16px;
 
+}
+#pic1{
+    margin: 0;
+    width: 100%;
 }
 #pic2{
-
     margin: 0;
     width: 100%;
 }
 
-.content ~ p{
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
-    color: red;
+.sibling > p{
+    float: right;
+    margin-top: 2%;
+    margin-right: 1%;
+    color: #aaaaaa;
+    font-size: 12px;
 }
 
+.sibling ~ h3{
+    float: left;
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 16px;
+}
 
+#firstLike{
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 30px;
+}
+#secondLike{
+    float: right;
+    margin-top: -7%;
+    margin-right: 2%;
+    width: 30px;
+}
+#thirdLike{
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 30px;
+}
 
 
 
