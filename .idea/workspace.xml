@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11b36a43-f268-49b5-b2fe-880535291f61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601154445841</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="index page in progress">
+      <created>1601193608179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601193608179</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,14 +104,14 @@
       <screen x="0" y="0" width="1920" height="1020" />
     </state>
     <state x="1037" y="154" key="#Inspections/0.0.1920.1020@0.0.1920.1020" timestamp="1600688728746" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1601154444452">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1601193607111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601154444452" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601154454760">
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601193607111" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601193609638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601154454760" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601193609638" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601125390948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -107,7 +107,12 @@ h2 {
     background-color: lightblue;
 }
 
-a {
+#link {
+    color: deepskyblue;
+    background-color: transparent;
+}
+
+form ~ a{
     color: deepskyblue;
     background-color: transparent;
 }
@@ -235,21 +240,21 @@ a {
     float: right;
     margin-top: 6%;
     margin-right: 2%;
-    width: 10%;
+    width: 7%;
 }
 
 #secondLike{
     float: right;
     margin-top: -2%;
     margin-right: 2%;
-    width: 10%;
+    width: 7%;
 }
 
 #thirdLike{
     float: right;
     margin-top: 6%;
     margin-right: 2%;
-    width: 10%;
+    width: 7%;
 }
 
 
