@@ -113,35 +113,35 @@ a {
 }
 
 .content{
-
+    display: flex;
+    flex-direction: column;
     position: fixed;
     height: 100%;
-    width: 50%;
+    width: 40%;
 
     background-color: white;
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 .box1 {
+
     background-color: white;
     padding: 0;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-left: 27%;
     width: 45%;
-    height: 40%;
+    height: 35%;
     box-shadow: 0 0 5px 5px #aaaaaa;
-
-
 }
+
 .box2{
     background-color: white;
     padding: 0;
     margin-top: 2%;
     margin-left: 27%;
     width: 45%;
-    height: 11%;
+    height: 13%;
     box-shadow: 0 0 5px 5px #aaaaaa;
-
 }
 
 .box3 {
@@ -150,11 +150,11 @@ a {
     margin-top: 2%;
     margin-left: 27%;
     width: 45%;
-    height: 34%;
+    height: 30%;
     box-shadow: 0 0 5px 5px #aaaaaa;
 }
 
-.sibling img{
+.box1 img{
     display: flex ;
     float: left;
     margin-left: 2%;
@@ -162,56 +162,94 @@ a {
     margin-right: auto;
     width: 5%;
 }
-
-.sibling img + h3{
+.box2 img{
+    display: flex ;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: auto;
+    width: 5%;
+}
+.box3 img{
+    display: flex ;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: auto;
+    width: 5%;
+}
+.box3 > p{
+    float: right;
+    margin-top: 2%;
+    margin-right: 1%;
+    color: #aaaaaa;
+    font-size: 0.5vmax;
+}
+.box2 > p{
+    float: right;
+    margin-top: 2%;
+    margin-right: 1%;
+    color: #aaaaaa;
+    font-size: 0.5vmax;
+}
+.box3 img + h3{
     float: left;
     margin-top: 2%;
     margin-left: 1%;
-    font-size: 16px;
-
+    font-size: 0.8vmax;
 }
+
+.box1 img + h3{
+    float: left;
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 0.8vmax;
+}
+
 #pic1{
     margin: 0;
     width: 100%;
 }
+
 #pic2{
     margin: 0;
     width: 100%;
 }
 
-.sibling > p{
+.box1 > p{
     float: right;
     margin-top: 2%;
     margin-right: 1%;
     color: #aaaaaa;
-    font-size: 12px;
+    font-size: 0.5vmax;
 }
 
-.sibling ~ h3{
+.box2 p + h3{
     float: left;
     margin-top: 2%;
     margin-left: 1%;
-    font-size: 16px;
+    font-size: 0.8vmax;
 }
 
 #firstLike{
     float: right;
-    margin-top: 2%;
+    margin-top: 6%;
     margin-right: 2%;
-    width: 30px;
-}
-#secondLike{
-    float: right;
-    margin-top: -7%;
-    margin-right: 2%;
-    width: 30px;
-}
-#thirdLike{
-    float: right;
-    margin-top: 2%;
-    margin-right: 2%;
-    width: 30px;
+    width: 10%;
 }
 
+#secondLike{
+    float: right;
+    margin-top: -2%;
+    margin-right: 2%;
+    width: 10%;
+}
+
+#thirdLike{
+    float: right;
+    margin-top: 6%;
+    margin-right: 2%;
+    width: 10%;
+}
 
 
